@@ -1,4 +1,4 @@
-# build mulit auhth using middlewares
+# build mulit authentication using middlewares
 ## The main idea of Role-Based Access Control (RBAC) in the context of multi-authentication in Laravel is to manage access to resources and actions within an application based on the roles assigned to users.
 ## How to implement (RBAC)??????
 ### USING GUARDS
