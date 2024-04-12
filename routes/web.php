@@ -35,6 +35,7 @@ Route::middleware(['auth','role:User'])->group(function(){
 // ->middleware(['auth','role:User'])
 // ->name('home.user');
 
+
 Route::middleware(['auth','role:Admin'])
 ->group(function(){
 Route::get('/admin/home/',[UserController::class,'adminhome'])
